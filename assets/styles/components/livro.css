@@ -1,0 +1,59 @@
+.livro_apresentacao {
+    display: grid;
+    grid-template-areas: 
+    "img texto";
+    grid-template-columns: 44% 1fr;
+    padding: 0 6rem 0 6rem;
+    align-items: center;
+}
+
+.icone_mulher {
+    grid-area: img;
+}
+
+.livro_titulo {
+    color: var(--branco);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.swiper-slide img {
+    width: 90%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper-pagination {
+        margin: 1em 0 2em 0;
+    }
+
+    .swiper {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrosel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+}
