@@ -2,7 +2,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 3rem 3rem 2rem 3rem;
 }
   
 .home_button {

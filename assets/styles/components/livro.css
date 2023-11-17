@@ -1,21 +1,12 @@
 .livro_apresentacao {
-    display: grid;
-    grid-template-areas: 
-    "img texto";
-    grid-template-columns: 44% 1fr;
-    padding: 0 6rem 0 6rem;
-    align-items: center;
-}
-
-.icone_mulher {
-    grid-area: img;
+    display: flex;
+    justify-content: center;
 }
 
 .livro_titulo {
     color: var(--branco);
     text-transform: uppercase;
     font-weight: 700;
-    padding: 1rem 0;
 }
 
 .swiper-slide img {
